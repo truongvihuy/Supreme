@@ -1,0 +1,136 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+  /*background: #2E3740;*/
+	background:url(../IMG/bg.jpg);
+}
+span {
+	float: left;
+	font-size: 22px;
+	width: 30%;
+	padding: 5px 0px;
+	color: white;
+}
+h2 {
+  color: white;
+  font-size: 55px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+a {
+  color: #9CA8B5;
+  text-decoration: none;
+}
+
+.login {
+ 	width: 60%;
+	margin: 0 auto;
+}
+
+.login1 {
+ 	width: 45%;
+	margin: 0 auto;
+}
+
+.login1 input[type="text"], .login1 input[type="date"], .login1 select {
+	width: 100%;
+	text-align: center;
+}
+input[type="text"], input[type="password"], input[type="date"],select {
+  	width: 30%;
+  	padding: 5px 0px;
+  	background: transparent;
+  	border: 0;
+  	border-bottom: 1px solid #435160;
+  	outline: none;
+  	color: white;
+  	font-size: 26px;
+	
+}
+option {
+	color: black;
+}
+input[type=checkbox] {display: none;}
+
+label {
+  display: block;
+  position: absolute;
+  margin-right: 10px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: transparent;
+  content: "";
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+  border: 3px solid #435160;
+}
+
+
+.agree {
+  padding: 30px 0px;
+  font-size: 14px;
+  text-indent: 25px;
+  line-height: 15px;
+}
+
+
+#agree:checked ~ label[for=agree] {background: #435160;}
+
+input[type="submit"] {
+  background: #1FCE6D;
+  border: 0;
+  width: 100%;
+  height: 50px;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 17px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+	margin-top: 10px;
+}
+input[type="submit"]:hover {
+  background: #16aa56;
+  animation-name: shake;
+}
+
+.forgot {
+  margin-top: 30px;
+  display: block;
+  font-size: 15px;
+  text-align: center;
+  font-weight: bold;
+}
+.forgot:hover {
+  margin-top: 30px;
+  display: block;
+  font-size: 17px;
+  text-align: center;
+  font-weight: bold;
+  color: #6D7781;
+}
+
+
+::-webkit-input-placeholder {
+  color: #435160;
+  font-size: 16px;
+}
+
+.button {
+  animation-fill-mode: both;
+  animation-duration: 1s;
+}
+
+@keyframes shake {
+	0%, 100% {transform: translateX(0);}
+	10%, 30%, 50%, 70%, 90% {transform: translateX(-6px);}
+	20%, 40%, 60%, 80% {transform: translateX(6px);}
+}
+
+#loi {
+	color: red;
+	display: none;
+}

@@ -1,0 +1,94 @@
+@charset "utf-8";
+/* CSS Document */
+/* Trang administrator */
+.admin {
+	background-color: #F1CDCE;
+	align-content:center;
+	border-radius: 5px;	
+    border: 1px solid #3b5998; 
+    box-sizing: border-box;
+    color: #3b5998; 
+	display: inline-block; 
+    font-size: 18px; 
+	line-height: 16.8px; 
+    margin: 50px ; 
+    padding: 20px 20px; 
+    text-decoration-line: none; 
+    transition: all 0.2s;
+}
+.content2 {
+	margin: 0px 15%;
+}
+/* Trang tài khoản */
+.admin1{
+	height:100%;
+}
+#list-account{
+	border: #000000;
+	border:thin;
+}
+td ,th, table {
+	border: black thin solid;
+}
+table {
+	margin: 10px -3%;
+}
+h1 {
+	margin: 0px ;
+	padding: 20px 20px 0px 20px;
+}
+/* Trang đơn hàng */
+#loc{
+	margin: 0px 30%;
+}
+#loc input, #loc select {
+	padding: 10px;
+}
+#loc input[type="submit"] {
+  	background: #1FCE6D;
+  	border: 0;
+  	border-radius: 3px;
+  	color: #fff;
+  	font-size: 17px;
+  	cursor: pointer;
+  	transition: background 0.3s ease-in-out;
+	margin-top: 10px;
+}
+#loc input[type="submit"]:hover {
+  background: #16aa56;
+  animation-name: shake;
+}
+.content3 {
+	margin: 0px 15%;
+	float: inherit;
+}
+button {
+	border-style: none;
+	background: transparent;
+	font-size: 16px;
+}
+/* Trang chi tiet hoa don */
+#cthd {
+	margin: 10px 10%;
+	width: 800px;
+}
+/* Trang san pham */
+.admin1 a{
+	color: black;
+}
+.loaisp {
+	width: 30%;
+	float: left;
+	border: black thin solid;
+	margin: 10px;
+	background-color: pink;
+	border-radius: 50px;
+}
+.loaisp ul {
+	padding: 0px 50px 50px 50px;
+	list-style: none;
+}
+.hethang {
+	clear: right;
+	width: 100%;
+}

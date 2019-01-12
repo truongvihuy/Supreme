@@ -1,0 +1,77 @@
+@charset "utf-8";
+
+.border{
+	background:url(../IMG/bkGxL1T.jpg);
+}
+.border1{
+	background:url(../IMG/white-wallpaper-14.jpg);
+	margin-left: 130px;
+	margin-right: 130px;
+	border:#000000 solid 10px;
+	border-radius: 30px;
+
+}
+span{
+	font-size: 22px;
+}
+input[type="text"], input[type="date"] {
+  width: 350px;
+  padding: 20px 0px;
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid #435160;
+  outline: none;
+  color: black;
+  font-size: 26px;
+	text-align: center;	
+}
+select{
+  margin-left: 1px;
+  width: 289px;
+  padding: 20px 0px;
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid #435160;
+  outline: none;
+  color: black;
+  font-size: 26px;
+  text-align:center;
+}
+textarea{
+  width: 800px;
+  padding: 20px 0px;
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid #435160;
+  outline: none;
+  color: black;
+  font-size: 26px;
+	
+}
+.button {
+  animation-fill-mode: both;
+  animation-duration: 1s;
+}
+input[type="submit"] {
+  background:#FF0004;
+  border: 0;
+  width: 350px;
+  height: 50px;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 17px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+input[type="submit"]:hover {
+  background:#C4383A;
+  animation-name: shake;
+}
+
+h1{	text-align: center;
+	color: red;
+	margin-left:0px;
+	font-size: 70px;
+	margin-top: 0px;
+	border-bottom: 10px solid #000000;
+}
